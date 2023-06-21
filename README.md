@@ -6,7 +6,7 @@ Enlists all miniature projects I'll be doing while learning things.
 - [x] CLI
 - [x] Git Bash
 - [x] HTML Foundations
-- [] CSS Foundations
-- [] Flexbox
-- [] JS
-- [] 
+- [ ] CSS Foundations
+- [ ] Flexbox
+- [ ] JS
+- [ ] 
