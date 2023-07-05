@@ -1,0 +1,19 @@
+.separator-heading { 
+    font-size: 1.5rem;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #7688a1;
+    line-height: 4vh;
+}
+
+li, p {
+    font-size: 1.35rem;
+    font-family: 'Livvic', sans-serif;
+    color: #b8c9c5;
+    line-height: 4vh;
+}
+
+ul > li {list-style-type: disc;}
+
+ol > li {list-style-type: decimal;}
+
+li {text-align: left;}

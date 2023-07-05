@@ -1,0 +1,46 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: #1a1919;
+    padding: 0 0 10vh;
+}
+
+.heading {
+    font-size: 4rem;
+    font-family: 'La Belle Aurore', cursive, sans-serif;
+    color: #e9c217;
+    text-shadow: .1rem .15rem #ff4800;
+}
+
+img {
+    width: 50vh;
+}
+
+hr {
+    border: none;
+    border-top: 0.2rem dashed #636568;
+    width: 60%;
+    margin: 8vh auto;
+}
+
+.sub-heading {
+    font-size: 2rem;
+    font-family: 'Handlee', sans-serif;
+    color: #ACBFA4;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: 'Ms Madi', sans-serif;
+    font-family: 'WindSong', cursive;
+    color: #bfe448;
+    /* text-shadow: 0.1rem 0.15rem #3ac263; */
+    line-height: 8vh;
+}
