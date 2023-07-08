@@ -10,12 +10,14 @@ body {
 .heading {
     font-size: 4rem;
     font-family: 'La Belle Aurore', cursive, sans-serif;
+    line-height: 12vh;
     color: #e9c217;
     text-shadow: .1rem .15rem #ff4800;
 }
 
 img {
-    width: 50vh;
+    width: 40vw;
+    height: auto;
 }
 
 hr {
@@ -31,16 +33,15 @@ hr {
     color: #ACBFA4;
 }
 
-li {
-    list-style-type: none;
-}
+li {list-style-type: none;}
+
+ul {padding: 0;}
 
 a {
     text-decoration: none;
     font-size: 3rem;
     font-family: 'Ms Madi', sans-serif;
     font-family: 'WindSong', cursive;
-    color: #bfe448;
-    /* text-shadow: 0.1rem 0.15rem #3ac263; */
+    color: #e4c748;
     line-height: 8vh;
 }
