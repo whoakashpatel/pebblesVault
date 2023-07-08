@@ -35,7 +35,7 @@ hr {
 
 li {list-style-type: none;}
 
-ul {padding: 0;}
+.recipe-list {padding: 0;}
 
 a {
     text-decoration: none;
