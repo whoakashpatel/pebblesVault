@@ -23,7 +23,7 @@ hr {
     width: 60%;
 }
 
-div.init-content, div.content > img {display: inline-block;}
+div.init-content {display: inline-block;}
 
 div.content {
     width: 62vw;
