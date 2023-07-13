@@ -5,15 +5,13 @@
     line-height: 4vh;
 }
 
-li, p {
+li, p.description {
     font-size: 1.35rem;
     font-family: 'Livvic', sans-serif;
     color: #b8c9c5;
     line-height: 4vh;
 }
 
-ul > li {list-style-type: disc;}
-
-ol > li {list-style-type: decimal;}
-
-li {text-align: left;}
+.container {
+    padding: 4vh 12vw; 
+}
