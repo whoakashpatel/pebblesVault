@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+a {text-decoration: none;}
+
+/* Alignment */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.section {
+    padding-inline: 18vw;
+    padding-block: 8vh;
+}
+
+div.showcase, div.review {padding-inline: 24vw;}
+
+/* Buttons */
+
+.button {
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 10px 20px;
+}
+
+div.cta .button {
+    border: 0.15rem solid white;
+}
+
+/* Header */
+
+div.header {
+    gap: 1.5vw;
+    padding-block: 0;
+    background-color: #1F2937;
+}
+
+div.header a {
+    color: #E5E7EB;
+}
+
+div.header > .brand-name {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Intro Section */
+
+div.introduction {
+    gap: 8vw;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    text-align: left;
+}
+
+div.introduction > * {
+    min-width: 0;
+    flex: 1;
+}
+
+div.introduction h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+div.introduction p {
+    color: #E5E7EB;
+}
+
+/* Showcase */
+
+div.showcase > h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+div.item > p {
+
+}
+
+div.projects {
+    gap: 3vw;
+    align-items: flex-start;
+}
+
+div.projects .item {flex: 1;}
+
+div.projects .item img {
+    width: 100%;
+    border: 0.2rem solid #3882F6;
+    border-radius: 0.6rem;
+}
+
+/* Review Section */
+
+div.review {background-color: #E5E7EB;}
+
+div.review .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+div.author {
+    margin-top: 1.5vh;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* CTA */
+
+div.cta {
+    background-color: #3882F6;
+    border-radius: 0.6rem;
+    gap: 1.5vw;
+    text-align: left;
+    padding-inline: 6vw;
+    padding-block: 2vh;
+    margin-inline: 18vw;
+    margin-block: 8vh;
+}
+
+div.cta h4 {color: #F9FAF8}
+div.cta p {color: #E5E7EB}
+
+.button.signup {margin-left: auto;}
+
+/* Footer */
+
+div.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
