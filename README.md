@@ -7,6 +7,6 @@ Enlists all miniature projects I'll be doing while learning things.
 - [x] Git Bash
 - [x] HTML Foundations
 - [x] CSS Foundations
-- [ ] Flexbox
+- [x] Flexbox
 - [ ] JS Basics
 - [ ] 
