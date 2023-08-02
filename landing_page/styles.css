@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Archivo', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -31,12 +31,13 @@ div.showcase, div.review {padding-inline: 24vw;}
 /* Buttons */
 
 .button {
+    font-size: 16px;
     font-weight: bold;
     color: #F9FAF8;
     background-color: #3882F6;
     border: none;
     border-radius: 0.6rem;
-    padding: 10px 20px;
+    padding: 8px 20px;
 }
 
 div.cta .button {
