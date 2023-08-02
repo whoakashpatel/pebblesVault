@@ -37,7 +37,7 @@ div.showcase, div.review {padding-inline: 24vw;}
     background-color: #3882F6;
     border: none;
     border-radius: 0.6rem;
-    padding: 8px 20px;
+    padding: 8px 16px;
 }
 
 div.cta .button {
@@ -136,8 +136,14 @@ div.cta {
     margin-block: 8vh;
 }
 
-div.cta h4 {color: #F9FAF8}
-div.cta p {color: #E5E7EB}
+div.cta h4 {
+    color: #F9FAF8;
+    margin: 10px 0;
+}
+div.cta p {
+    color: #E5E7EB;
+    margin: 10px 0;
+}
 
 .button.signup {margin-left: auto;}
 
