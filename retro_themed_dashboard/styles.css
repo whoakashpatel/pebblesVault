@@ -1,17 +1,46 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    
+    color: whitesmoke;
 }
 
 body {
-    padding: 10vw;
+    padding: 0 15vw;
     margin: 0;
     background-color: #111827;
+    font-size: 18px;
 }
 
+a {text-decoration: none;}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Buttons */
 /* Navbar */
 /* Dashboard */
+
+div.profile-card {
+    background-color: rgba(89, 118, 143, 0.15);
+    border: 1px solid #fff1;
+    border-radius: 0.4rem;
+    padding: 3vw;
+    gap: 3vw;
+    margin-block: 3.5vw 6vw;;
+}
+
+div.profile-card > img {
+    width: 7vw;
+    border-radius: 100%;
+}
+
+div.profile-card h3 {margin-right: auto;}
+
+div.profile-card a {opacity: 0.6;}
+
 /* Skills Progress */
 /* Project Submissions */
 /* CTA */
