@@ -1,11 +1,10 @@
 * {
-    box-sizing: border-box;
     text-align: center;
     color: whitesmoke;
 }
 
 body {
-    padding: 0 15vw;
+    padding: 0 25vw;
     margin: 0;
     background-color: #111827;
     font-size: 18px;
@@ -42,6 +41,30 @@ div.profile-card h3 {margin-right: auto;}
 div.profile-card a {opacity: 0.6;}
 
 /* Skills Progress */
+
+div.progress-section {
+    padding: 35px 0;
+    border-bottom: 2px solid #fff2;
+    gap: 20px;
+}
+
+div.progress-section .progress-bar {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 8px solid rgb(61, 134, 61);
+    color: #fffb;
+}
+
+div.progress-section div p {
+    margin: 0;
+    text-align: left;
+}
+
+div.progress-section .lesson-count {opacity: 0.6;}
+
+div.progress-section .resume {margin-left: auto;}
+
 /* Project Submissions */
 /* CTA */
 /* Fundraiser */
