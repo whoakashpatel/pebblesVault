@@ -1,6 +1,7 @@
 * {
-    text-align: center;
-    color: whitesmoke;
+    color: #fffd;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -8,9 +9,19 @@ body {
     margin: 0;
     background-color: #111827;
     font-size: 18px;
+    text-align: center;
 }
 
 a {text-decoration: none;}
+
+a, p, button {opacity: 0.9;}
+
+hr.thick {opacity: 0.8;}
+hr.thin {opacity: 0.2;}
+
+h1, h2 {
+    padding-block: 5rem 2rem;
+}
 
 .flex {
     display: flex;
@@ -19,20 +30,56 @@ a {text-decoration: none;}
 }
 
 /* Buttons */
+
+button {
+    border-radius: 0.4rem;
+    border: 1.5px solid #fff5;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fffe;
+}
+
+button:active {border: 4px solid #0f766e;}
+
+.button-transparent {background-color: transparent;}
+
+.button-white {
+    background-color: #fffe;
+    color: #111827;
+}
+
+.button-green {background-color: #0f766e;}
+
 /* Navbar */
+
+div.navbar {
+    height: 60px;
+    margin-inline: -10vw;
+    padding-block: 0.2rem;
+    gap: 1rem;
+    font-size: 18px;
+}
+
+div.navbar img {height: 60px;}
+div.navbar a.brand-logo {margin-right: auto;}
+div.navbar img.user-pfp {
+    border-radius: 100%;
+    height: 50px;
+}
+
 /* Dashboard */
 
 div.profile-card {
     background-color: rgba(89, 118, 143, 0.15);
     border: 1px solid #fff1;
     border-radius: 0.4rem;
-    padding: 3vw;
-    gap: 3vw;
-    margin-block: 3.5vw 6vw;;
+    padding: 2.5rem;
+    gap: 2rem;
 }
 
 div.profile-card > img {
-    width: 7vw;
+    width: 80px;
     border-radius: 100%;
 }
 
@@ -43,16 +90,16 @@ div.profile-card a {opacity: 0.6;}
 /* Skills Progress */
 
 div.progress-section {
-    padding: 35px 0;
+    padding-block: 0.5rem 2rem;
     border-bottom: 2px solid #fff2;
-    gap: 20px;
+    gap: 1.8rem;
 }
 
 div.progress-section .progress-bar {
     width: 90px;
     height: 90px;
     border-radius: 100%;
-    border: 8px solid rgb(61, 134, 61);
+    border: 8px solid #0f766e;
     color: #fffb;
 }
 
@@ -66,8 +113,65 @@ div.progress-section .lesson-count {opacity: 0.6;}
 div.progress-section .resume {margin-left: auto;}
 
 /* Project Submissions */
+
+div.project {
+    gap: 0.5rem;
+    padding-block: 1.5rem;
+    font-size: larger;
+}
+
+div.project p {margin-right: auto;}
+
+div.project i.like:hover {color: #0f766e;}
+
 /* CTA */
+
+.cta > p {margin-bottom: 1rem;}
+
 /* Fundraiser */
+
+.fundraiser > p {margin-bottom: 1rem;}
+
 /* Socials */
+
+div.socials {padding-block: 3rem 1rem;}
+
+div.socials > * {text-align: left;}
+
+div.socials > a img {height: 80px;}
+
+div.socials .links a {
+    padding: 0.2rem;
+    font-size: x-large;
+}
+
 /* Site Map */
+
+div.site-map {
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 3rem;
+}
+
+div.site-map div {
+    font-weight: bold;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div.site-map div > *:not(p) {
+    opacity: 0.7;
+    font-weight: normal;
+    padding-top: 0.3rem;
+}
+
 /* Footer */
+
+div.footer {
+    border-top: 2px solid #fff2;
+    margin-top: 5rem;
+    margin-inline: -10vw;
+    padding-block: 2rem;
+    text-align: left;
+    opacity: 0.5;
+}
